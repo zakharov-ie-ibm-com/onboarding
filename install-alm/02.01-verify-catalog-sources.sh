@@ -1,0 +1,1 @@
+oc get CatalogSources ibm-operator-catalog opencloud-operators -n openshift-marketplace

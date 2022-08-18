@@ -1,0 +1,25 @@
+apiVersion: operator.openshift.io/v1alpha1 
+kind: ImageContentSourcePolicy
+metadata:
+  name: mirror-config
+spec:
+  repositoryDigestMirrors:
+  - mirrors:
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp 
+    source: cp.icr.io/cp
+  - mirrors: 
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp 
+    source: docker.io/ibmcom      
+  - mirrors: 
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp 
+    - docker.io/ibmcom
+    source: icr.io/cpopen 
+  - mirrors:
+    - hyc-cloud-private-daily-docker-local.artifactory.swg-devops.com/ibmcom # IBM CS Daily builds from artifactory
+    source: quay.io/opencloudio

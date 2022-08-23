@@ -1,1 +1,1 @@
-oc create namespace  alm
+oc create namespace  lifecycle-manager

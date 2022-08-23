@@ -1,1 +1,1 @@
-oc get deployment -n alm
+oc get deployment -n lifecycle-manager

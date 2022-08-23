@@ -2,7 +2,7 @@ apiVersion: operators.coreos.com/v1alpha2
 kind: OperatorGroup
 metadata:
   name: ibm-tnc-orchestration-catalog-group
-  namespace: alm
+  namespace: lifecycle-manager
 spec:
   targetNamespaces:
-    - alm
+    - lifecycle-manager

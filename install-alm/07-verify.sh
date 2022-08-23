@@ -1,1 +1,1 @@
-oc  get orchestration -n alm
+oc  get orchestration -n lifecycle-manager

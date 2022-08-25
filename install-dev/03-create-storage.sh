@@ -1,14 +1,8 @@
-mkdir -p /home/kubeadmin/auth/
-echo ""
-echo "Add kubeadmin passwprd to file $HOME/auth/kubeadmin-password"
-echo ""
-read -p "Press ENTER to start editor... "
 
-vi /home/kubeadmin/auth/kubeadmin-password
-
-
-echo "********************************************************************"
-echo " Add ssh key to github in order to checkout storage creating script "
-echo "********************************************************************"
-
-read -p "Press ENTER to exit... "
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+dnf install ansible git -y
+git clone https://github.com/IBM/community-automation.git
+cd community-automation/ansible/csi-cephfs-fyre-play
+echo "[bastion]" > inventory
+echo "localhost       ansible_connection=local" >> inventory
+ansible-playbook -i inventory csi-cephfs.yml --extra-vars "default_sc=rook-cephfs"

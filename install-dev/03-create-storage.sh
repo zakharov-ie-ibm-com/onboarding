@@ -1,6 +1,7 @@
 
-dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
-dnf install ansible git -y
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+sudo dnf install ansible git -y
+
 git clone https://github.com/IBM/community-automation.git
 cd community-automation/ansible/csi-cephfs-fyre-play
 echo "[bastion]" > inventory

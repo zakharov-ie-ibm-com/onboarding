@@ -1,0 +1,28 @@
+apiVersion: operator.openshift.io/v1alpha1 
+kind: ImageContentSourcePolicy
+metadata:
+  name: mirror-config
+spec:
+  repositoryDigestMirrors:
+  - mirrors:
+    - image-registry.openshift-image-registry.svc:5000/openshift-marketplace
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp
+    source: cp.icr.io/cp
+  - mirrors: 
+    - image-registry.openshift-image-registry.svc:5000/openshift-marketplace
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp 
+    source: docker.io/ibmcom
+  - mirrors:
+    - alm-docker-local.artifactory.swg-devops.com
+    - hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com
+    - cp.stg.icr.io/cp
+    - docker.io/ibmcom
+    source: icr.io/cpopen
+  - mirrors:
+    - hyc-cloud-private-daily-docker-local.artifactory.swg-devops.com/ibmcom
+    source: quay.io/opencloudio
+

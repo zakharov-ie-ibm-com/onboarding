@@ -1,1 +1,1 @@
-watch -n 10 'oc get pods -n lifecycle-manager ; oc get pods -n ibm-common-services' 
+watch -n 10 'oc get pods -n lifecycle-manager ; oc get pods -n ibm-common-services ; oc get pods -n openshift-marketplace ' 

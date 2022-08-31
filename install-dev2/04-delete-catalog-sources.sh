@@ -1,0 +1,1 @@
+oc delete -f 04-ibm-catalog-source.yaml

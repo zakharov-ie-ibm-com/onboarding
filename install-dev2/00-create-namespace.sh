@@ -1,0 +1,1 @@
+oc create namespace lifecycle-manager

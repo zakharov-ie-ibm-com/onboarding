@@ -1,0 +1,65 @@
+{
+  "auths": {
+    "cloud.openshift.com": {
+      "username": "openshift-release-dev+fyreusibmcom1qlgljmm79sfif1e2oikygbpxei",
+      "password": "96NHQXFSH5DN6PX5T76YSW13BL88BYJ9O90KP9OP2K89DJU8B22DCYWHM19XQ09V",
+      "auth": "b3BlbnNoaWZ0LXJlbGVhc2UtZGV2K2Z5cmV1c2libWNvbTFxbGdsam1tNzlzZmlmMWUyb2lreWdicHhlaTo5Nk5IUVhGU0g1RE42UFg1VDc2WVNXMTNCTDg4QllKOU85MEtQOU9QMks4OURKVThCMjJEQ1lXSE0xOVhRMDlW",
+      "email": "fyre@us.ibm.com"
+    },
+    "quay.io": {
+      "username": "openshift-release-dev+fyreusibmcom1qlgljmm79sfif1e2oikygbpxei",
+      "password": "96NHQXFSH5DN6PX5T76YSW13BL88BYJ9O90KP9OP2K89DJU8B22DCYWHM19XQ09V",
+      "auth": "b3BlbnNoaWZ0LXJlbGVhc2UtZGV2K2Z5cmV1c2libWNvbTFxbGdsam1tNzlzZmlmMWUyb2lreWdicHhlaTo5Nk5IUVhGU0g1RE42UFg1VDc2WVNXMTNCTDg4QllKOU85MEtQOU9QMks4OURKVThCMjJEQ1lXSE0xOVhRMDlW",
+      "email": "fyre@us.ibm.com"
+    },
+    "registry.connect.redhat.com": {
+      "username": "52837100|uhc-1QLGLJmM79sFif1E2oiKYgBpXeI",
+      "password": "eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJkOGYzODJmNjQ4ODU0ZmQ5YmI0N2Y0MDM4NjRkYjYwNiJ9.p_MxSU7cWtJ0-G1xHxHp2usvnLdv-XrOEikG_yO1L_WEdEcPxLQt55_oQwCscE5veQsXcjBTjziRj1iWXFuw0bzbGNcAkEjomB3-PhsKX-b3saltcfmcFQscDER4ZSc6veo9-_f_EyHVXG1FUFOk3XwR8SGSw9xMEo9NjsQRnaAKFHQ7CWOMN4kVIDzS8SO3wbC9kbLI6ufLrjxI1DvgT8UV_QH9MD3XYelVhfqu5Pv2jX3WeFBmR_az6PPXM_25Qdk5nfF799NOfj7uv2ksc5eeEu_-ADwsxzSicer4OqiqdIV85V6E5IyOrONRQzHZogYxE3DL2o_qFbdpAeCOZQOrbS8dJYtp8bjeGto2VSd3rnG1hdWxYl3JxbbDANInS_qiNO6SvBapQgk9O_LPb-xhJJiFQimbjnVrNrgkRp41lBnzen2FwPyWh_Va5DPX__DYTYEliXL0tdXmRmpLQa3dxSBp5XhJMEXN6SdQoFFkox3R53rbPCWeU9lLnyGGy0E_WFbLa0-F2Ss0pm7tr7aVGWOjkwU4a7nemDqLWU1ocgwHyFMZeIi7m6Ans9Rho6EdSD7TxyhxRx6bAk5-ByLj0AHuaxvF63r2Yf82oYpHmv2VHDRKA5F1CF2N4Q1myq5CGFNDpy7IlaG6wHqQ9b_VRGvjdoxqdOZGGYuZtS0",
+      "auth": "NTI4MzcxMDB8dWhjLTFRTEdMSm1NNzlzRmlmMUUyb2lLWWdCcFhlSTpleUpoYkdjaU9pSlNVelV4TWlKOS5leUp6ZFdJaU9pSmtPR1l6T0RKbU5qUTRPRFUwWm1RNVltSTBOMlkwTURNNE5qUmtZall3TmlKOS5wX014U1U3Y1d0SjAtRzF4SHhIcDJ1c3ZuTGR2LVhyT0Vpa0dfeU8xTF9XRWRFY1B4TFF0NTVfb1F3Q3NjRTV2ZVFzWGNqQlRqemlSajFpV1hGdXcwYnpiR05jQWtFam9tQjMtUGhzS1gtYjNzYWx0Y2ZtY0ZRc2NERVI0WlNjNnZlbzktX2ZfRXlIVlhHMUZVRk9rM1h3UjhTR1N3OXhNRW85TmpzUVJuYUFLRkhRN0NXT01ONGtWSUR6UzhTTzN3YkM5a2JMSTZ1ZkxyanhJMUR2Z1Q4VVZfUUg5TUQzWFllbFZoZnF1NVB2MmpYM1dlRkJtUl9hejZQUFhNXzI1UWRrNW5mRjc5OU5PZmo3dXYya3NjNWVlRXVfLUFEd3N4elNpY2VyNE9xaXFkSVY4NVY2RTVJeU9yT05SUXpIWm9nWXhFM0RMMm9fcUZiZHBBZUNPWlFPcmJTOGRKWXRwOGJqZUd0bzJWU2Qzcm5HMWhkV3hZbDNKeGJiREFOSW5TX3FpTk82U3ZCYXBRZ2s5T19MUGIteGhKSmlGUWltYmpuVnJOcmdrUnA0MWxCbnplbjJGd1B5V2hfVmE1RFBYX19EWVRZRWxpWEwwdGRYbVJtcExRYTNkeFNCcDVYaEpNRVhONlNkUW9GRmtveDNSNTNyYlBDV2VVOWxMbnlHR3kwRV9XRmJMYTAtRjJTczBwbTd0cjdhVkdXT2prd1U0YTduZW1EcUxXVTFvY2d3SHlGTVplSWk3bTZBbnM5UmhvNkVkU0Q3VHh5aHhSeDZiQWs1LUJ5TGowQUh1YXh2RjYzcjJZZjgyb1lwSG12MlZIRFJLQTVGMUNGMk40UTFteXE1Q0dGTkRweTdJbGFHNndIcVE5Yl9WUkd2amRveHFkT1pHR1l1WnRTMA==",
+      "email": "fyre@us.ibm.com"
+    },
+    "registry.redhat.io": {
+      "username": "52837100|uhc-1QLGLJmM79sFif1E2oiKYgBpXeI",
+      "password": "eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJkOGYzODJmNjQ4ODU0ZmQ5YmI0N2Y0MDM4NjRkYjYwNiJ9.p_MxSU7cWtJ0-G1xHxHp2usvnLdv-XrOEikG_yO1L_WEdEcPxLQt55_oQwCscE5veQsXcjBTjziRj1iWXFuw0bzbGNcAkEjomB3-PhsKX-b3saltcfmcFQscDER4ZSc6veo9-_f_EyHVXG1FUFOk3XwR8SGSw9xMEo9NjsQRnaAKFHQ7CWOMN4kVIDzS8SO3wbC9kbLI6ufLrjxI1DvgT8UV_QH9MD3XYelVhfqu5Pv2jX3WeFBmR_az6PPXM_25Qdk5nfF799NOfj7uv2ksc5eeEu_-ADwsxzSicer4OqiqdIV85V6E5IyOrONRQzHZogYxE3DL2o_qFbdpAeCOZQOrbS8dJYtp8bjeGto2VSd3rnG1hdWxYl3JxbbDANInS_qiNO6SvBapQgk9O_LPb-xhJJiFQimbjnVrNrgkRp41lBnzen2FwPyWh_Va5DPX__DYTYEliXL0tdXmRmpLQa3dxSBp5XhJMEXN6SdQoFFkox3R53rbPCWeU9lLnyGGy0E_WFbLa0-F2Ss0pm7tr7aVGWOjkwU4a7nemDqLWU1ocgwHyFMZeIi7m6Ans9Rho6EdSD7TxyhxRx6bAk5-ByLj0AHuaxvF63r2Yf82oYpHmv2VHDRKA5F1CF2N4Q1myq5CGFNDpy7IlaG6wHqQ9b_VRGvjdoxqdOZGGYuZtS0",
+      "auth": "NTI4MzcxMDB8dWhjLTFRTEdMSm1NNzlzRmlmMUUyb2lLWWdCcFhlSTpleUpoYkdjaU9pSlNVelV4TWlKOS5leUp6ZFdJaU9pSmtPR1l6T0RKbU5qUTRPRFUwWm1RNVltSTBOMlkwTURNNE5qUmtZall3TmlKOS5wX014U1U3Y1d0SjAtRzF4SHhIcDJ1c3ZuTGR2LVhyT0Vpa0dfeU8xTF9XRWRFY1B4TFF0NTVfb1F3Q3NjRTV2ZVFzWGNqQlRqemlSajFpV1hGdXcwYnpiR05jQWtFam9tQjMtUGhzS1gtYjNzYWx0Y2ZtY0ZRc2NERVI0WlNjNnZlbzktX2ZfRXlIVlhHMUZVRk9rM1h3UjhTR1N3OXhNRW85TmpzUVJuYUFLRkhRN0NXT01ONGtWSUR6UzhTTzN3YkM5a2JMSTZ1ZkxyanhJMUR2Z1Q4VVZfUUg5TUQzWFllbFZoZnF1NVB2MmpYM1dlRkJtUl9hejZQUFhNXzI1UWRrNW5mRjc5OU5PZmo3dXYya3NjNWVlRXVfLUFEd3N4elNpY2VyNE9xaXFkSVY4NVY2RTVJeU9yT05SUXpIWm9nWXhFM0RMMm9fcUZiZHBBZUNPWlFPcmJTOGRKWXRwOGJqZUd0bzJWU2Qzcm5HMWhkV3hZbDNKeGJiREFOSW5TX3FpTk82U3ZCYXBRZ2s5T19MUGIteGhKSmlGUWltYmpuVnJOcmdrUnA0MWxCbnplbjJGd1B5V2hfVmE1RFBYX19EWVRZRWxpWEwwdGRYbVJtcExRYTNkeFNCcDVYaEpNRVhONlNkUW9GRmtveDNSNTNyYlBDV2VVOWxMbnlHR3kwRV9XRmJMYTAtRjJTczBwbTd0cjdhVkdXT2prd1U0YTduZW1EcUxXVTFvY2d3SHlGTVplSWk3bTZBbnM5UmhvNkVkU0Q3VHh5aHhSeDZiQWs1LUJ5TGowQUh1YXh2RjYzcjJZZjgyb1lwSG12MlZIRFJLQTVGMUNGMk40UTFteXE1Q0dGTkRweTdJbGFHNndIcVE5Yl9WUkd2amRveHFkT1pHR1l1WnRTMA==",
+      "email": "fyre@us.ibm.com"
+    },
+    "docker.io": {
+      "username": "kevanwm",
+      "password": "m.H7fYDfWio9j.A",
+      "auth": "a2V2YW53bTptLkg3ZllEZldpbzlqLkE=",
+      "email": "kevanwm@gmail.com"
+    },
+    "hyc-hdm-staging-docker-virtual.artifactory.swg-devops.com": {
+      "username": "tncmo.dev@ie.ibm.com",
+      "auth": "dG5jbW8uZGV2QGllLmlibS5jb206QUtDcDVlbTZZZEFMV2VqM0ZiOWNCMWU0ckRZTExERG80a3k5TE5ISHdFdWRpZEFZMWJrbVliVnJZYWlHc0tkMU5TaktIVU5KWg==",
+      "email": "Y9DFYM754@nomail.relay.ibm.com"
+    },
+    "hyc-cloud-private-daily-docker-local.artifactory.swg-devops.com": {
+    "username": "tncmo.dev@ie.ibm.com",
+    "auth": "dG5jbW8uZGV2QGllLmlibS5jb206QUtDcDVlbTZZZEFMV2VqM0ZiOWNCMWU0ckRZTExERG80a3k5TE5ISHdFdWRpZEFZMWJrbVliVnJZYWlHc0tkMU5TaktIVU5KWg==",
+    "email": "Y9DFYM754@nomail.relay.ibm.com"
+    },
+    "hyc-tnc-team-alm-releases-docker-local.artifactory.swg-devops.com": {
+    "username": "tncmo.dev@ie.ibm.com",
+    "auth": "dG5jbW8uZGV2QGllLmlibS5jb206QUtDcDVlbTZZZEFMV2VqM0ZiOWNCMWU0ckRZTExERG80a3k5TE5ISHdFdWRpZEFZMWJrbVliVnJZYWlHc0tkMU5TaktIVU5KWg==",
+    "email": "Y9DFYM754@nomail.relay.ibm.com"
+    },
+    "alm-docker-local.artifactory.swg-devops.com": {
+      "auth": "dG5jbW8uZGV2QGllLmlibS5jb206QUtDcDVlbTZZZEFMV2VqM0ZiOWNCMWU0ckRZTExERG80a3k5TE5ISHdFdWRpZEFZMWJrbVliVnJZYWlHc0tkMU5TaktIVU5KWg==",
+      "user": "tncmo.dev@ie.ibm.com"
+    },
+    "cp.stg.icr.io": {
+      "username": "cp",
+      "password": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE2MTYxNTQ5NzgsImp0aSI6IjA2NmVkZmNmODc4MDRhM2Y4YjE2ZjU2YjA1YTNkOWMzIn0.cYdZn4Xl7q6emwQBFGxomm9_qFDd-d5IvGYOoM-ISvo",
+      "auth": "Y3A6ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUpKUWswZ1RXRnlhMlYwY0d4aFkyVWlMQ0pwWVhRaU9qRTJNVFl4TlRRNU56Z3NJbXAwYVNJNklqQTJObVZrWm1ObU9EYzRNRFJoTTJZNFlqRTJaalUyWWpBMVlUTmtPV016SW4wLmNZZFpuNFhsN3E2ZW13UUJGR3hvbW05X3FGRGQtZDVJdkdZT29NLUlTdm8=",
+      "email": "colmmcca@ie.ibm.com"
+    },
+    "cp.icr.io": {
+      "username": "cp",
+      "password": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE2MTM0ODM4MjYsImp0aSI6ImE0NTJhZTgyZTIwZjQ5MjRhZWU2M2Y2NGViMDQ1YjEzIn0.tKbWthBBNudonuOTdo3ooH7uvBbz5URyi-Ch-fo-WAs",
+      "auth": "Y3A6ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUpKUWswZ1RXRnlhMlYwY0d4aFkyVWlMQ0pwWVhRaU9qRTJNVE0wT0RNNE1qWXNJbXAwYVNJNkltRTBOVEpoWlRneVpUSXdaalE1TWpSaFpXVTJNMlkyTkdWaU1EUTFZakV6SW4wLnRLYld0aEJCTnVkb251T1RkbzNvb0g3dXZCYno1VVJ5aS1DaC1mby1XQXM=",
+      "email": "colmmcca@ie.ibm.com"
+    }
+  }
+}

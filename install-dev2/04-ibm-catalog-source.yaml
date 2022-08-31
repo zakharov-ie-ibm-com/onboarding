@@ -1,0 +1,52 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: IBM Operator Catalog
+  publisher: IBM
+  sourceType: grpc
+  image: docker.io/ibmcom/ibm-operator-catalog
+  updateStrategy:
+    registryPoll:
+      interval: 45m
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: opencloud-operators
+  namespace: openshift-marketplace
+spec:
+  displayName: IBMCS Operators
+  publisher: IBM
+  sourceType: grpc
+  image: docker.io/ibmcom/ibm-common-service-catalog:latest
+--- 
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cloud-databases-redis-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cloud-databases-redis-operator-catalog
+  image: 'docker.io/ibmcom/ibm-cloud-databases-redis-catalog:latest'
+  publisher: IBM
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 45m
+---  
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-tnc-orchestration-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-tnc-orchestration-catalog
+  publisher: IBM
+  sourceType: grpc
+  image: icr.io/cpopen/ibm-tnc-orchestration-catalog@sha256:2755bc8731b7d105516b67dd7f92b9e855068c725f657707f92938135b4db70b
+  updateStrategy:
+    registryPoll:
+      interval: 45m

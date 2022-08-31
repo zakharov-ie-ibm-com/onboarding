@@ -1,0 +1,14 @@
+apiVersion: tnc.ibm.com/v1beta1
+kind: Orchestration
+metadata:
+  name: cp4na
+spec:
+  license:
+    accept: true
+  version: 2.4.0
+  featureconfig:
+    irpmanager: false
+    siteplanner: true
+    watchtower: false
+  advanced:
+    imagePullPolicy: "IfNotPresent"

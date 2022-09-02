@@ -3,7 +3,8 @@
 cloudctl=$HOME/bin/cloudctl
 ctl=/usr/local/bin/cloudctl
 
-casefile=$(find . -name ibm-tnc-orchest*| tail -n 1)
+#take the latest version 
+casefile=$(find . -name ibm-tnc-orchest*| sort | tail -n 1)
 sudo cp $cloudctl $ctl
 
 out=$HOME/case/outputdir

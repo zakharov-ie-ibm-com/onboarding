@@ -1,0 +1,43 @@
+oc delete orchestration --all
+
+oc get pods -n lifecycle-manager
+oc get pods -n ibm-common-services
+
+oc patch -n lifecycle-manager rolebinding/admin -p '{"metadata": {"finalizers":null}}'
+oc patch -n ibm-common-services rolebinding/admin -p '{"metadata": {"finalizers":null}}'
+
+oc delete operandrequest --all -n lifecycle-manager
+oc delete operandrequest --all -n ibm-common-services
+oc delete namespacescope --all -n ibm-common-services
+
+oc delete subscription --all -n lifecycle-manager
+oc delete subscription --all -n ibm-common-services
+
+oc delete csv --all -n lifecycle-manager
+oc delete csv --all -n ibm-common-services
+
+oc delete deployment --all -n ibm-common-services
+oc delete services --all -n ibm-common-services
+oc delete job --all -n ibm-common-services
+oc delete configmap --all -n ibm-common-services
+oc delete secrets --all -n ibm-common-services
+oc delete cronjob --all -n ibm-common-services
+
+oc delete deployment --all -n lifecycle-manager
+oc delete statefulset --all -n lifecycle-manager
+oc delete job --all -n lifecycle-manager
+oc delete services --all -n lifecycle-manager
+oc delete configmap --all -n lifecycle-manager
+oc delete secrets --all -n lifecycle-manager
+oc delete cronjob -n lifecycle-manager --all
+oc delete pvc -n lifecycle-manager --all
+
+oc delete project ibm-common-services
+oc delete project lifecycle-manager
+
+Verify above 2 projects deleted completely
+oc get ns | grep ibm-common-services
+oc get ns | grep lifecycle-manager
+
+
+watch -n 10 'oc get pods'

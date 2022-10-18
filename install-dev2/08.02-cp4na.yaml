@@ -12,3 +12,4 @@ spec:
     watchtower: false
   advanced:
     imagePullPolicy: "IfNotPresent"
+    multitenant: true
